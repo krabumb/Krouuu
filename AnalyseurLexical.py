@@ -155,8 +155,18 @@ def generate_token_list(char_list : list[str]) -> list[Token]:
                 COMMENT = True
             else:
                 token_list.append(Token("SYMBOL", char))
-    print(token_list)
     return token_list
 
 
-generate_token_list(readFile("code.spark"))
+def del_all_comments(token_list : list[Token]) -> list[Token]:
+    new_token_list = []
+    for token in token_list:
+        if token.type == "COMMENT":
+            pass
+        else:
+            new_token_list.append(token)
+    return new_token_list
+
+
+print(del_all_comments(generate_token_list(readFile("code.spark"))))
+
