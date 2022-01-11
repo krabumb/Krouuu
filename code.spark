@@ -1,4 +1,6 @@
-Str(x) = "3";
+string:x = "3";
+int:y = 4;
+int:z = 5;
 
 function print = function(Int(x),Int(y),Int(r),Int(g),Int(b)){
     $ x doit etre superieur a 0 et inferieur a la taille de la fenetre
