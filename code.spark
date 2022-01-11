@@ -1,8 +1,8 @@
-string:x = "3";
-int:y = 4;
-int:z = 5;
+new string x = "3";
+new int y = 4;
+new int z = 5;
 
-function print = function(Int(x),Int(y),Int(r),Int(g),Int(b)){
+new function prints(int x, int y, int z, int a, int b){
     $ x doit etre superieur a 0 et inferieur a la taille de la fenetre
     $ y doit etre superieur a 0 et inferieur a la taille de la fenetre
     $ r doit etre superieur a 0 et inferieur a 255
