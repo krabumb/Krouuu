@@ -1,0 +1,9 @@
+écrire des règles de grammaire :
+
+Idf : un identificateur (une chaine de caractères)
+Number : un nombre (un entier)
+String : une chaine de caractères ("...")
+
+Operateur : un opérateur (+, -, *, /, %, ==, !=, <=, >=, <, >)
+Operation : Operation Operateur Operation OU Number OU Idf OU String
+Créer une variable : Idf(Idf) = Operation;

@@ -1,0 +1,54 @@
+Str(x) = "3";
+
+function print = function(Int(x),Int(y),Int(r),Int(g),Int(b)){
+    $ x doit etre superieur a 0 et inferieur a la taille de la fenetre
+    $ y doit etre superieur a 0 et inferieur a la taille de la fenetre
+    $ r doit etre superieur a 0 et inferieur a 255
+    $ g doit etre superieur a 0 et inferieur a 255
+    $ b doit etre superieur a 0 et inferieur a 255
+
+    if (x < 0) {
+        throw Exception("x must be greater than 0");
+    } elif (x > taille_fenetre) {
+        throw Exception("x must be less than the window size");
+    } elif (y < 0) {
+        throw Exception("y must be greater than 0");
+    } elif (y > taille_fenetre) {
+        throw Exception("y must be less than the window size");
+    } elif (r < 0) {
+        throw Exception("r must be greater than 0");
+    } elif (r > 255) {
+        throw Exception("r must be less than 255");
+    } elif (g < 0) {
+        throw Exception("g must be greater than 0");
+    } elif (g > 255) {
+        throw Exception("g must be less than 255");
+    } elif (b < 0) {
+        throw Exception("b must be greater than 0");
+    } elif (b > 255) {
+        throw Exception("b must be less than 255");
+    }
+
+    $ code qu'on sait pas encore
+    pass;
+    
+}
+
+printconsole("fjir'z'fgio");
+printconsole('zb"e"ub');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
