@@ -198,5 +198,5 @@ def del_all_comments(token_list : list[Token]) -> list[Token]:
     return new_token_list
 
 
-print(del_all_comments(generate_token_list(readFile("code.spark"))))
+print(del_all_comments(generate_token_list(readFile("code.krouuu"))))
 
