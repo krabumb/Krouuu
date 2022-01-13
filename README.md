@@ -3,8 +3,8 @@
 Langage de programmation Krouuu
 
 Krouuu est un langage de programmation orienté objet.
-Ce langage a été crée afin de programmer des fenêtres sur windows.
-et Linux beaucoup plus facilement en travaillant directement sur une fenêtre de travail.
+Ce langage a été crée afin de programmer des fenêtres sur windows
+et linux beaucoup plus facilement en travaillant directement sur une fenêtre de travail.
 Des fonctions built-in s'occupe de gérer la fenêtre.
 
 
