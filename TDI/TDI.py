@@ -15,8 +15,6 @@ class TDI:
         else:
             return None
 
-
-
 class Scope:
 
     def __init__(self, parent : 'Scope' = None):
@@ -57,4 +55,3 @@ class Scope:
 
     def get_parent_scope(self):
         return self.__parent_scope
-    
