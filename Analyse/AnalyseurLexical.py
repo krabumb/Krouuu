@@ -60,6 +60,16 @@ def determine_if_token_is_idf_or_builtin(string : str) -> Token:
         return Token("BUILTIN", "null")
     elif string == "print":
         return Token("BUILTIN", "print")
+    elif string == "import":
+        return Token("BUILTIN", "import")
+    elif string == "native":
+        return Token("BUILTIN", "native")
+    elif string == "new":
+        return Token("BUILTIN", "new")
+    elif string == "class":
+        return Token("BUILTIN", "class")
+    elif string == "init":
+        return Token("BUILTIN", "init")
     else:
         return Token("IDF", string)
 

@@ -1,4 +1,24 @@
-start new window {
+# import "nom de l'import";
+# import "nom de la fonction" from "nom de l'import";
+# import * as "autre nom" from "nom de l'import";
+
+
+new string x = "3";
+
+class Code {
+
+    @OnInit init_fonc(int x, int y);
+
+    public init Code() {
+        print("Hello World");
+    }
+
+    native function print(string);
+
+}
+
+
+new Code x = (12,3){
 
     new string x = "3";
     new int y = 4;
@@ -41,6 +61,9 @@ start new window {
     printconsole('zb"e"ub');
 
 }
+
+
+x.init_fonc();
 
 
 
